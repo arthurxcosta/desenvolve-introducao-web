@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pesquisa de Satisfação</title>
+    </head>
+    <body>
+        <h1>Pesquisa de satisfação</h1>
+        <h2>Sua opnião importa!</h2>
+        <form action="pesquisa-satisfacao.html" method="post">
+            <section>
+                <h3>Dados Pessoais</h3>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" placeholder="Arthur Xavier Costa" id="nome" required/>
+                </p>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" placeholder="exemplo@gmail.com" id="email" required/>
+                </p>
+                <p>
+                    <label for="telefone">Telefone:</label>
+                    <input type="number" placeholder="12 34567-8901" id="login" required/>
+                </p>
+            </section>
+            <section>
+                <p>
+                    <h3>Responda essas perguntas</h3>
+                </p>
+                <p>
+                    O que achou do site?
+                    <input type="radio" id="otimo" name="avaliacao">
+                    <label for="otimo">Ótimo</label>
+                    <input type="radio" id="bom" name="avaliacao">
+                    <label for="bom">Bom</label>
+                    <input type="radio" id="ruim" name="avaliacao">
+                    <label for="ruim">Ruim</label>
+                </p>
+                <p>
+                    Qual a chance de você recomendar o site para um amigo? (1 = Nenhuma - 5 = Com certeza)
+                    <input type="radio" id="1" name="recomendacao">
+                    <label for="1">1</label>
+                    <input type="radio" id="2" name="recomendacao">
+                    <label for="2">2</label>
+                    <input type="radio" id="3" name="recomendacao">
+                    <label for="3">3</label>
+                    <input type="radio" id="4" name="recomendacao">
+                    <label for="4">4</label>
+                    <input type="radio" id="5" name="recomendacao">
+                    <label for="5">5</label>
+                </p>
+                <p>
+                    Qual parte do site você mais gostou?
+                    <select>
+                        <option>Formatação</option>
+                        <option>Organização</option>
+                        <option>Perguntas</option>
+                        <option>Opções disponíveis</option>
+                    </select>
+                </p>
+            </section>
+            <section>
+                <p>
+                    <input type="checkbox" id="uso-de-dados">
+                    <label for="uso-de-dados">Autorizo o compartilhamento da minha resposta com terceiros</label>
+                </p>
+    
+                <p>
+                    <input type="submit" value="Finalizar">
+                </p>
+            </section>
+    </body>
+</html>
