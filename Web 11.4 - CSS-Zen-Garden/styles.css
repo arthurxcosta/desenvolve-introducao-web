@@ -1,0 +1,14 @@
+/*
+.principal { color: #164773; }
+.destaque { color: #1E5959; }
+.background { color: #89D99D; }
+*/
+
+html {
+    background: #89D99D;
+    color: #164773;
+}
+
+.destaque {
+    color: #0B2B40;
+}
