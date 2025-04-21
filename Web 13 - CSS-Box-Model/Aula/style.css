@@ -1,0 +1,35 @@
+/* Aplicação individual
+p {
+    height: 6em;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-bottom-color: gray;
+}
+*/
+
+/* Aplicação conjunta
+p {
+    border: solid 1px gray; 
+}    
+*/
+p {
+    border: solid 1px gray;
+    padding: 2%;
+    margin: 30px;
+
+    background-color: yellow;
+}
+
+em {
+    border: dashed 2px red;
+    background-color: aliceblue;
+
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin: 30px;
+
+    display: block;
+}
