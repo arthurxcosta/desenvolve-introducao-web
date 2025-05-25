@@ -1,0 +1,38 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+@media screen and (max-width: 648px) {
+    
+    .container {
+        flex-wrap: wrap;
+    }
+    
+    p {
+        flex-basis: 50%;
+    }
+
+    p:last-child {
+        flex-basis: 100%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+@media print {
+    html {
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
