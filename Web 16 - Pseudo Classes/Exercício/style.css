@@ -170,7 +170,7 @@ a:hover {
 }
 
 a:visited {
-    font-weight: normal !important;
+    font-weight: normal;
     color: #93b3d3;
 }
 
